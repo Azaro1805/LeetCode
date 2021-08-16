@@ -36,7 +36,7 @@ class Solution(object):
         
         while(low <= high):
             mid = (low+high)/2
-            if(isBadVersion(mid)):
+            if(isBadVersion(mid)): #we have already this func
                 result = mid
                 high = mid-1
             else:
